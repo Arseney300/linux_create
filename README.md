@@ -3,7 +3,7 @@
 
 ### SYNOPSIS
 ```
-	create [template file name] [copy file name] 
+create [template file name] [copy file name] 
 ```
 
 ### DESCRIPTION
@@ -19,12 +19,14 @@
 		can't allocate memory
 ### EXAMPLES
 ``` 
-	create index.html my_index.html 
+create index.html my_index.html 
 ```
 
 ### REQUIREMENTS
 ```
-	gcc
-	make
-	bash
+gcc
+make
+bash
 ```
+### TODO
+	fix problem with autocomplete from folder in folder
