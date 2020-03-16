@@ -1,5 +1,5 @@
 ### CREATE
-Create copy of template file
+	Create copy of template file
 
 ### SYNOPSIS
 ```
