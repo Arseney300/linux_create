@@ -18,8 +18,6 @@ int main(int argc, char**argv){
 	strcat(c, argv[1]);
 	strcat(c, " ");
 	strcat(c, argv[2]);
-	system(c);
-
-
-	return 0;
+	int return_code = system(c);
+	return return_code;
 }
