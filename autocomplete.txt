@@ -1,0 +1,5 @@
+_create_complete(){
+	COMPREPLY=($(compgen -W "$(ls /$HOME/Templates)" "${COMP_WORDS[1]}"))
+}
+
+complete -F _create_complete create
